@@ -1,0 +1,35 @@
+
+My ToDo List
+
+The My ToDo List application is a very simple task list application that consists of two screens - a task list and an add / edit screen. In addition to this document, I have provided you with an application simulation consisting of XHTML, CSS, and Javascript. Please use these files as the basis for your interface; you can, of course, make changes as is necessary.
+
+Task List Screen
+
+The main page of the application is the task list. The task list is broken up into the three columns with the following format:
+
+Due Today
+These are task that are either due today or are overdue (due today, yesterday, and earlier). 
+
+Due Tomorrow
+These are tasks that due tomorrow. 
+
+Due Soon Enough
+These are all the tasks that are due later than tomorrow. 
+
+For each list, the tasks should be listed in ascending order according to the date on which they were created (meaning, tasks added more recently should be at the bottom of the list).
+
+When you click Delete or flag the task as having been completed, notice that the Javascript makes an AJAX call to execute these actions. I have made very simple ColdFusion dummy pages to simulate this task, but feel free to create your own AJAX architecture in accordance with your own best practices. 
+
+Add / Edit Screen
+
+When you choose to add a new task or edit an existing one, both actions should use the same interface and code-behind; when adding a new task, the form will be blank and when editing an existing task, the form will be pre-populated with the task data. You will notice that in the simulation, the first form submission simulates the form errors and the second form submission simulates a successful form submission. This is done to demonstrate the look and feel of the form errors. All error handling should be done on the server side for this screen. 
+
+Data Persistence
+
+The task list data should be persisted as a single XML file in such a way that the application code base can be picked up and moved to another location without any further configuration. Feel free to cache the XML data in a persistent scope in a format of your choosing (XML, query object, array of structs, etc.). 
+
+To keep the XML file size to a minimum, please feel free to remove both deleted and finished tasks from the XML file. At the end of the day, it is most important that the XML file contain tasks that have not been completed.
+
+ColdFusion Architecture
+
+The ColdFusion architecture that is in place for the application simulation is just for the simulation. Please use whatever architecture that you feel is best.

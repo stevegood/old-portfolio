@@ -1,0 +1,78 @@
+
+body {
+	font-family: verdana, arial, sans-serif ;
+	}
+
+/* -- Resets. -- */
+h1,
+h2,
+h3,
+h4,
+h5,
+form,
+p,
+ul,
+ol {
+	margin-bottom: 1.5em ;
+	margin-top: 0px ;
+	}
+	
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ol,
+ul {
+	font-size: 1.1em ;
+	line-height: 1.5em ;
+	}
+	
+ol ol,
+ol ul,
+ul ul,
+ul ol {
+	font-size: 100% ;
+	}
+	
+h1 {}
+
+h2 {
+	border-bottom: 5px solid #FCFCFC ;
+	font-family: arial ;
+	font-size: 180% ;
+	margin-bottom: 1.5em ;
+	}
+	
+h3 {
+	font-family: arial ;
+	font-size: 150% ;
+	margin-bottom: 1.5em ;
+	}
+	
+a {
+	color: #FFCC00 ;
+	}
+	
+input,
+select {
+	vertical-align: middle ;
+	}
+	
+input.small {
+	width: 80px ;
+	}
+	
+input.medium {
+	width: 140px ;
+	}
+	
+input.large {
+	width: 290px ;
+	}
+	
+textarea.small {
+	height: 70px ;
+	width: 400px ;
+	}

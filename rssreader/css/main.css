@@ -1,0 +1,53 @@
+.hidden {
+	display: none;
+}
+#header {
+	padding: 5px 5px 10px 5px;
+	text-align: center;
+	background-color: #FFA800;
+}
+#addRSSBtn {
+	text-decoration: underline;
+	font-weight: bold;
+}
+#addRSSBtn:hover {
+	cursor:pointer;
+}
+#RSSForm {
+	margin-top:7px;
+}
+#RSSInput {
+	width: 600px;
+}
+#CancelBtn {
+	cursor: pointer;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.itemContent {
+	overflow: auto;
+	max-height: 300px;
+	padding:7px;
+}
+.pubDate {
+	margin-top:7px;
+}
+div.loadingAnimation {
+	text-align: center;
+}
+img.loadingAnimation {
+	vertical-align: middle;
+}
+.itemView {
+	height: 500px;
+	width: 100%;
+	margin-right:10px;
+	background: url('/images/ajax-loader.gif') no-repeat;
+	background-position: 50%;
+}
+.feedItem {
+	padding-bottom:10px;
+}
+.closeIframe {
+	cursor:pointer;
+}

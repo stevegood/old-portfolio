@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TaskList>
+
+	<task>
+		<id>9</id>
+		<name>Buy Milk</name>
+		<description>Need to buy milk. Beer and cereal in the morning just isn't cutting it anymore...</description>
+		<duedate>04-24-2009</duedate>
+		<isComplete>false</isComplete>
+	</task>
+	
+	<task>
+		<id>10</id>
+		<name>Mow the lawn</name>
+		<description>While mowing the lawn see if you can find the car also.  How did the grass get this long!?</description>
+		<duedate>04-25-2009</duedate>
+		<isComplete>false</isComplete>
+	</task>
+	
+	<task>
+		<id>11</id>
+		<name>Feed the cat</name>
+		<description>The cat has been looking pretty skinny lately, might be time to feed him again this month.</description>
+		<duedate>04-26-2009</duedate>
+		<isComplete>false</isComplete>
+	</task>
+
+	<task>
+		<id>12</id>
+		<name>Get a haircut</name>
+		<description>Need to get a haircut if for no other reason than to get rid of the singed hair smell.  Side note, need to buy new Grill and propane tanks.</description>
+		<duedate>04-27-2009</duedate>
+		<isComplete>false</isComplete>
+	</task>
+	
+</TaskList>

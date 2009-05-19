@@ -1,0 +1,55 @@
+
+
+body {
+	background-color: #1B1B1B ;
+	color: #F0F0F0 ;
+	font-size: 62.5% ;
+	margin: 65px 10px 50px 10px ;
+	padding: 0px 0px 0px 0px ;
+	}
+	
+div#site-container {
+	margin: 0px auto 0px auto ;
+	overflow: hidden ; 
+	width: 880px ;
+	}
+	
+div#site-header h1 {
+	background-image: url( "../images/site_logo.gif" ) ;
+	background-position: top left ;
+	background-repeat: no-repeat ;
+	height: 22px ;
+	margin: 0px 0px 0px 0px ;
+	overflow: hidden ;
+	width: 182px ;
+	}
+	
+div#site-header h1 a {
+	display: block ;
+	height: 22px ;
+	overflow: hidden ;
+	text-indent: -9999px ;
+	width: 182px ;
+	}
+	
+div#site-header {
+	margin-bottom: 26px ;
+	}
+	
+div#site-content {
+	padding-bottom: 60px ;
+	}
+
+div#site-footer {
+	border-top: 3px solid #A68500 ;
+	color: #C19B00 ;
+	padding-top: 12px ;
+	}
+	
+div#site-footer a {
+	color: #A68500 ;
+	}
+	
+div#site-footer p {
+	margin-bottom: .6em ;
+	}

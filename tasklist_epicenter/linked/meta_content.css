@@ -1,0 +1,217 @@
+
+div.fix-clear {
+	clear: both ;
+	font-size: 1px ;
+	height: 1px ;
+	line-height: 1px ;
+	overflow: hidden ;
+	}
+
+	
+/* --- Data Form ------------------------------------------------------------- --- */
+	
+table.data-form {
+	width: 100% ;
+	}
+
+table.data-form td.label {
+	font-size: 1.1em ;
+	font-weight: bold ;
+	padding: 2px 8px 1.5em 0px ;
+	vertical-align: top ;
+	width: 20% ;
+	}
+	
+table.data-form td.input,
+table.data-form td.value {
+	padding: 1px 0px 1.5em 0px ;
+	vertical-align: top ;
+	}
+	
+div.data-form-buttons {
+	padding: 10px 0px 0px 20% ;
+	}
+	
+div.data-form-buttons a.cancel {
+	margin-left: 20px ;
+	}
+	
+div.data-form-buttons a.delete {
+	margin-left: 20px ;
+	}
+	
+div.data-form-errors {
+	color: #FF0101 ;
+	margin-bottom: 2em ;
+	}
+
+div.data-form-errors h3 {
+	margin: 0px 0px .4em 0px ;
+	}
+	
+div.data-form-errors ul {
+	margin-bottom: 0px ;
+	}		
+
+div.data-form-errors ul li {
+	margin-bottom: .5em ;
+	}
+	
+
+	
+/* --- Main Task List -------------------------------------------------------- --- */
+	
+ul#main-task-list {
+	list-style-type: none ;
+	float: left ;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	width: 100% ;
+	}
+	
+li#task-list-for-today,
+li#task-list-for-tomorrow,
+li#task-list-for-soon {
+	float: left ;
+	margin: 0px 0px 0px 0px ;
+	overflow: hidden ;
+	padding: 0px 0px 0px 0px ;
+	width: 275px ;
+	}
+	
+li#task-list-for-today {
+	margin-right: 28px ;
+	}	
+
+li#task-list-for-soon {
+	float: right ;
+	}
+	
+li#task-list-for-today h3,
+li#task-list-for-tomorrow h3,
+li#task-list-for-soon h3 {
+	background-position: top left ;
+	background-repeat: no-repeat ;
+	color: #E5E5E5 ;
+	font-family: arial ;
+	font-size: 60px ;
+	height: 144px ;
+	line-height: 80px ;
+	margin: 0px 0px 10px 0px ;
+	overflow: hidden ;
+	padding: 10px 25px 0px 0px ;
+	text-align: right ;
+	width: 250px ;
+	}
+	
+li#task-list-for-today h3 {
+	background-image: url( "../images/due_today_header_background.jpg" ) ;
+	}
+	
+li#task-list-for-tomorrow h3 {
+	background-image: url( "../images/due_tomorrow_header_background.jpg" ) ;
+	}
+	
+li#task-list-for-soon h3 {
+	background-image: url( "../images/due_soon_header_background.jpg" ) ;
+	}
+	
+ul#main-task-list p.add-new-task-top {
+	margin-bottom: 22px ;
+	}
+
+ul#main-task-list p.add-new-task-top a {
+	background-color: #FFCC00 ;
+	color: #333333 ;
+	display: block ;
+	line-height: 2em ;
+	text-align: center ;
+	text-decoration: none ;
+	}
+	
+ul#main-task-list p.add-new-task-bottom {
+	text-align: center ;
+	}
+	
+ul#main-task-list p.add-new-task-bottom a {
+	color: #FFCC00 ;
+	text-decoration: none ;
+	}
+
+ul#main-task-list p.add-new-task-top a:hover {
+	font-weight: bold ;
+	}
+	
+ul#main-task-list ol.task-list {
+	list-style-type: none ;
+	margin: 0px 0px 10px 0px ;
+	padding: 0px 0px 0px 0px ;
+	}
+	
+ul#main-task-list ol.task-list li {
+	border: 1px solid #454545 ;
+	margin: 0px 0px 18px 0px ;
+	padding: 1px 1px 1px 1px ;
+	}
+	
+ul#main-task-list ol.task-list div.description {
+	padding: 5px 7px 10px 7px ;
+	}
+	
+ul#main-task-list ol.task-list form {
+	background-color: #333333 ;
+	margin-bottom: 0px ;
+	padding: 2px 5px 1px 4px ;
+	}
+	
+ul#main-task-list ol.task-list form label {
+	float: left ;
+	width: 33% ;
+	}
+	
+ul#main-task-list ol.task-list form a.edit {
+	float: left ;
+	text-align: center ;
+	text-decoration: none ;
+	width: 33% ;
+	}
+	
+ul#main-task-list ol.task-list form a.delete {
+	float: right ;
+	text-decoration: none ;
+	}
+	
+li#task-list-for-today ol.task-list li {
+	zoom: 1 ;
+	}
+
+li#task-list-for-tomorrow ol.task-list li {
+	filter: alpha( opacity = 50 ) ;
+	opacity: .5 ;
+	zoom: 1 ;
+	}
+	
+li#task-list-for-tomorrow ol.task-list li {
+	filter: alpha( opacity = 50 ) ;
+	opacity: .5 ;
+	zoom: 1 ;
+	}
+
+li#task-list-for-soon ol.task-list li {
+	filter: alpha( opacity = 20 ) ;
+	opacity: .2 ;
+	zoom: 1 ;
+	}
+	
+li#task-list-for-tomorrow ol.task-list li:hover,
+li#task-list-for-soon ol.task-list li:hover {
+	filter: alpha( opacity = 100 ) ;
+	opacity: 1 ;
+	}
+	
+/* These classes are for IE 6. Gonna hook them with Javascript. */
+li#task-list-for-tomorrow ol.task-list li.not-faded,
+li#task-list-for-soon ol.task-list li.not-faded {
+	filter: alpha( opacity = 100 ) ;
+	opacity: 1 ;
+	}
